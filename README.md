@@ -12,8 +12,9 @@ A markdown project describing our use of tracking utm tags in Vuffeli ApS
 ------
 
 ## Facebook link should look like this:
-
->https://vuffeli.dk/?utm_source=facebook&utm_medium=cpa&utm_campaign=christmas&utm_term=ll%280-3%25%29-purchases_26_08_2019&utm_content=ellie
+```
+https://vuffeli.dk/?utm_source=facebook&utm_medium=cpa&utm_campaign=christmas&utm_term=ll%280-3%25%29-purchases_26_08_2019&utm_content=ellie
+```
 
 This tells Google Analytics everything we need to know about the effectiveness of an ad.
 
@@ -22,12 +23,16 @@ It tells us that the visitor came from __facebook__, that it was a __cpa__ ad, t
 When writing the utm tags for an ad it is important to include all tags as facebook seemingly does not create any automatically.
 The input field for tracking tags under the ad called "Webadresseparametre (valgfrit)" should contain the following to create the desired link
 
->utm_source=facebook&utm_medium=cpa&utm_campaign=christmas&utm_term=ll%280-3%25%29-purchases_26_08_2019&utm_content=ellie
+```
+utm_source=facebook&utm_medium=cpa&utm_campaign=christmas&utm_term=ll%280-3%25%29-purchases_26_08_2019&utm_content=ellie
+```
 
 ------
 ## Email links should look like this:
 
->https://vuffeli.dk/?utm_source=campaignmonitor&utm_medium=email&utm_campaign=onboarding&utm_term=newcustomersegment&utm_content=bottom_link
+```
+https://vuffeli.dk/?utm_source=campaignmonitor&utm_medium=email&utm_campaign=onboarding&utm_term=newcustomersegment&utm_content=bottom_link
+```
 
 It tells us that the visitor came from __campaignmonitor__, that it was an __email__, that the campaign was made for __onboarding__ that the segment was __newcustomersegment__ and lastly the specific link was __bottom_link__.
 
